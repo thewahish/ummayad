@@ -1,0 +1,97 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg" id="graph_proposed_m1">
+    <!-- Background -->
+    <rect width="800" height="500" fill="white"/>
+
+    <!-- Plot area background -->
+    <rect x="50" y="50" width="700" height="400" fill="white" stroke="#333" stroke-width="1"/>
+
+    <!-- Grid lines (dB - horizontal) -->
+    <line x1="50" y1="450.0" x2="750" y2="450.0" stroke="#E0E0E0" stroke-width="0.5" opacity="0.3"/>
+    <line x1="50" y1="370.0" x2="750" y2="370.0" stroke="#E0E0E0" stroke-width="0.5" opacity="0.3"/>
+    <line x1="50" y1="290.0" x2="750" y2="290.0" stroke="#E0E0E0" stroke-width="0.5" opacity="0.3"/>
+    <line x1="50" y1="210.0" x2="750" y2="210.0" stroke="#E0E0E0" stroke-width="0.5" opacity="0.3"/>
+    <line x1="50" y1="130.0" x2="750" y2="130.0" stroke="#E0E0E0" stroke-width="2" opacity="0.8"/>
+    <line x1="50" y1="50.0" x2="750" y2="50.0" stroke="#E0E0E0" stroke-width="0.5" opacity="0.3"/>
+
+    <!-- Grid lines (Frequency - logarithmic vertical) -->
+    <line x1="50.0" y1="50" x2="50.0" y2="450" stroke="#E0E0E0" stroke-width="0.5" opacity="0.3"/>
+    <line x1="97.56875994430436" y1="50" x2="97.56875994430436" y2="450" stroke="#E0E0E0" stroke-width="0.5" opacity="0.3"/>
+    <line x1="170.153832370229" y1="50" x2="170.153832370229" y2="450" stroke="#E0E0E0" stroke-width="0.5" opacity="0.3"/>
+    <line x1="241.9044930185275" y1="50" x2="241.9044930185275" y2="450" stroke="#E0E0E0" stroke-width="0.5" opacity="0.3"/>
+    <line x1="314.4895654444521" y1="50" x2="314.4895654444521" y2="450" stroke="#E0E0E0" stroke-width="0.5" opacity="0.3"/>
+    <line x1="387.07463787037676" y1="50" x2="387.07463787037676" y2="450" stroke="#E0E0E0" stroke-width="0.5" opacity="0.3"/>
+    <line x1="459.6597102963014" y1="50" x2="459.6597102963014" y2="450" stroke="#E0E0E0" stroke-width="0.5" opacity="0.3"/>
+    <line x1="532.2447827222261" y1="50" x2="532.2447827222261" y2="450" stroke="#E0E0E0" stroke-width="0.5" opacity="0.3"/>
+    <line x1="604.8298551481507" y1="50" x2="604.8298551481507" y2="450" stroke="#E0E0E0" stroke-width="0.5" opacity="0.3"/>
+    <line x1="677.4149275740754" y1="50" x2="677.4149275740754" y2="450" stroke="#E0E0E0" stroke-width="0.5" opacity="0.3"/>
+    <line x1="750.0" y1="50" x2="750.0" y2="450" stroke="#E0E0E0" stroke-width="0.5" opacity="0.3"/>
+
+    <!-- Y-axis labels (dB) -->
+    <text x="40" y="454.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#333">-20</text>
+    <text x="40" y="374.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#333">-15</text>
+    <text x="40" y="294.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#333">-10</text>
+    <text x="40" y="214.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#333">-5</text>
+    <text x="40" y="134.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#333">+0</text>
+    <text x="40" y="54.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#333">+5</text>
+
+    <!-- X-axis labels (Frequency) -->
+    <text x="50.0" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">20</text>
+    <text x="97.56875994430436" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">31.5</text>
+    <text x="170.153832370229" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">63</text>
+    <text x="241.9044930185275" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">125</text>
+    <text x="314.4895654444521" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">250</text>
+    <text x="387.07463787037676" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">500</text>
+    <text x="459.6597102963014" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">1k</text>
+    <text x="532.2447827222261" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">2k</text>
+    <text x="604.8298551481507" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">4k</text>
+    <text x="677.4149275740754" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">8k</text>
+    <text x="750.0" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">16k</text>
+
+    <!-- Axis titles -->
+    <text x="400.0" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Frequency (Hz)</text>
+    <text x="15" y="250.0" text-anchor="middle" transform="rotate(-90, 15, 250.0)" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Gain (dB)</text>
+
+    <!-- Title -->
+    <text x="400.0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1a252f">Proposed System - Position M1 (Front Center, Below Dome)</text>
+
+    <!-- Data curve -->
+    <path d="M 50.00 450.00 L 73.37 434.00 L 97.57 418.00 L 122.59 386.00 L 145.95 354.00 L 170.15 322.00 L 195.17 290.00 L 218.54 258.00 L 241.90 226.00 L 267.76 210.00 L 291.12 194.00 L 314.49 178.00 L 338.69 194.00 L 363.71 210.00 L 387.07 194.00 L 411.28 178.00 L 436.29 162.00 L 459.66 130.00 L 483.03 114.00 L 508.88 114.00 L 532.24 98.00 L 555.61 98.00 L 579.81 82.00 L 604.83 98.00 L 628.20 98.00 L 652.40 114.00 L 677.41 130.00 L 700.78 146.00 L 724.15 162.00 L 750.00 194.00" fill="none" stroke="#27AE60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Data points -->
+    <circle cx="50.00" cy="450.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="73.37" cy="434.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="97.57" cy="418.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="122.59" cy="386.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="145.95" cy="354.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="170.15" cy="322.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="195.17" cy="290.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="218.54" cy="258.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="241.90" cy="226.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="267.76" cy="210.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="291.12" cy="194.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="314.49" cy="178.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="338.69" cy="194.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="363.71" cy="210.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="387.07" cy="194.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="411.28" cy="178.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="436.29" cy="162.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="459.66" cy="130.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="483.03" cy="114.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="508.88" cy="114.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="532.24" cy="98.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="555.61" cy="98.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="579.81" cy="82.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="604.83" cy="98.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="628.20" cy="98.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="652.40" cy="114.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="677.41" cy="130.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="700.78" cy="146.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="724.15" cy="162.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+    <circle cx="750.00" cy="194.00" r="3" fill="#27AE60" stroke="white" stroke-width="1"/>
+
+    <!-- Legend -->
+    <rect x="550" y="45" width="230" height="35" fill="white" stroke="#999" stroke-width="1" rx="3"/>
+    <line x1="560" y1="62.5" x2="590" y2="62.5" stroke="#27AE60" stroke-width="3"/>
+    <text x="595" y="67" font-family="Arial, sans-serif" font-size="12" fill="#333">Proposed Line Array + Room EQ</text>
+
+</svg>

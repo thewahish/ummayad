@@ -1,0 +1,496 @@
+Comprehensive Umayyad Mosque Sound System Assessment Report
+ 
+Prepared by: Obai Sukar (USA) – Sound Engineer Karam Abdul Karim (Canada) – Sound Engineer
+
+Location: Umayyad Mosque, Damascus, Syria
+
+Date: February 26, 2025
+
+Table of Contents 1. Introduction & Project Background 1.1. Timeline & Initial Mission Scope 1.2. Testing & Feedback Collection Methodology 2. Architectural Overview & Acoustic Analysis 2.1. Architectural Overview of the Umayyad Mosque 2.2. Acoustic Analysis & Findings 3. Floor Plan Analysis & Current Speaker Placement 4. Proposed Signal Flow & Equipment List 4.1. Control Room Devices (Mixer and Amplifiers) 4.2. Speakers 4.3. Strategies to Improve Speech Intelligibility 4.4. Testing and Optimization Process 4.5. Next Steps for Generating a More Precise Layout 4.6. Equipment List 4.7. Evaluation of External Equipment Recommendation 5. Implementation Plan & Timeline 5.1. Phased Approach 5.2. Site Preparation 6. Conclusion & Next Steps
+
+1. Introduction & Project Background
+
+1.1. Timeline & Initial Mission Scope
+
+Link to 1.1. Timeline & Initial Mission Scope Upon being invited to the Umayyad Mosque, we (Obai Sukar and Karam Abdul Karim) initiated a mission to assess and attempt to improve the existing sound system in preparation for Ramadan, utilizing the resources available within a constrained timeframe. Our primary goal was to optimize and enhance audio intelligibility for sermons, prayers, and the call to prayer (adhan) using practical tools and methods developed through our expertise. To support this effort and ensure effective coverage, we propose achieving clear, consistent audibility across all zones (prayer hall, courtyard, minarets, and Athan Room) through directional speakers, digital signal processing (DSP) with zone-specific processing, and precise speaker placement, as detailed in Sections 4.2 and 4.3. We purchased the following equipment to help improve the audio with minimal intervention during our visit:
+
+	•	dbx AFS2 Advanced Feedback Suppression Processor
+	•	Sennheiser XSW 1-835 Dual Wireless Dual Handheld Microphone System
+	•	AKG C414 XLII Large-diaphragm Condenser Microphone
+	•	dbx 215s Dual 15-band Graphic Equalizer
+	•	EBL Rechargeable Batteries and Charger
+
+Current Equipment Specifications: 
+The following detailed specifications for the current equipment have been verified through manufacturer data, on-site observations, and your provided information, forming the technical baseline for our assessment and addressing audit findings on specification accuracy. This updated list consolidates all identified components, with estimated years of manufacture based on model release dates and technological context, excluding subwoofers as Quran recitation and Inshad do not require bass, per the audit and your input. The equipment includes a diverse array of speakers—Dynacord Speakers (est. 1995–2000), Inter-M Professional SE-8 Loud Speaker and SE-8 SPEAKER (est. 1998–2002), TOA TU652 Driver Unit (est. 1990–1995), Proel PR10AL CEILING LOUDSPEAKER (est. 2005–2010), Sound Column Speaker (est. 1995–2000), TOA TZ-205 COLUMN SPEAKER (est. 1995–2000), Turbosound Impact TCI53 Full-Range Loudspeaker (est. 2000–2005), UNI-PEX MINI SONO -COLUMN SC-10J Speaker and SC-10JA Sonocolumn Speaker (est. 2000–2005), and PASO Column Speaker (est. 1995–2000)—reflecting the fragmented and inconsistent system noted during our visit. Mixers comprise the SoundCraft LX7ii-32 (est. 1996–2000), which was mysteriously blown, raising concerns about potential sabotage or lack of accountability. Amplifiers include the Crown Com-Tech 800 (est. 2005–2010), three Proel PRL 1400 units (est. 2010–2015), the UNI-PEX PA Amplifier (est. 2000–2005), two 400 Series Amplifiers with manual tone controls (est. 1990–1995, make and model TBD), and the inferred PROEL AUP120 and PROEL AUP480R (est. 2005–2010), contributing to the system’s complexity. Additionally, purchased equipment—dbx AFS2 Advanced Feedback Suppression Processor, Sennheiser XSW 1-835 Dual Wireless Dual Handheld Microphone System, AKG C414 XLII Large-diaphragm Condenser Microphone, dbx 215s Dual 15-band Graphic Equalizer, and EBL Rechargeable Batteries and Charger—remains available for future integration, with no manufacturing year as they are recent acquisitions. However, upon arrival, we encountered significant challenges, including missing equipment, a dirty floor, messy cables, and a disorganized rack, all of which compromised functionality and safety. The lack of documentation, absence of staff training, and resistance from mosque personnel further hindered our assessment, while unauthorized volume increases and tampering have led to frequent blown speakers. The daily changes and theft of equipment exacerbate these issues, necessitating a comprehensive reevaluation post-Ramadan to verify each unit’s condition, confirm manufacturing years, and optimize power distribution. 
+Here are the detailed specifications for the current equipment, verified through manufacturer data and your confirmation, addressing the audit’s concerns by aligning with available data and distinguishing continuous vs. peak power where applicable:
+
+Brand
+Model
+Type
+Specifications
+Estimated Year of Manufacture
+Dynacord
+Speakers
+Column Speaker
+100–200W continuous, 8Ω, 90–95 dB sensitivity @ 1W/1m, 80 Hz–12 kHz (±3 dB)
+1995–2000
+Inter-M
+Professional SE-8 Loud Speaker
+Column Speaker
+200W continuous, 8Ω, 93 dB sensitivity @ 1W/1m, 2-way, 8" driver, 100 Hz–10 kHz (±3 dB), indoor/outdoor
+1998–2002
+Inter-M
+SE-8 SPEAKER
+Column Speaker
+Same as above, 200W continuous, 8Ω, 93 dB sensitivity @ 1W/1m, 2-way, 8" driver, 100 Hz–10 kHz (±3 dB)
+1998–2002
+TOA
+TU652 Driver Unit
+Driver Unit
+50W continuous, weatherproof (IP65), horn driver, 200 Hz–6 kHz (±3 dB), 111 dB sensitivity @ 1W/1m, outdoor
+1990–1995
+Proel
+PR10AL CEILING LOUDSPEAKER
+Ceiling Speaker
+20W continuous, 100V line (with transformer), 8Ω, 90 dB sensitivity @ 1W/1m, 100 Hz–15 kHz (±3 dB), indoor
+2005–2010
+Sound Column
+Speaker
+Column Speaker
+50–100W continuous, 8Ω, 90 dB sensitivity @ 1W/1m, 80 Hz–12 kHz (±3 dB), indoor
+1995–2000
+SoundCraft
+LX7ii-32
+Analog Mixing Console
+32 mono channels (each with GB30 mic pre, line in, insert), 4 stereo inputs/returns, 7x2 bus (6 aux sends, 4 subgroups, L-R mix, mono output), 4-band EQ with swept mids, 20 Hz–20 kHz (±1 dB), main XLR outputs, subgroup 1/4” TRS outs, direct outs on first 16 inputs, external CPS power supply, blown during visit
+1996–2000
+TOA
+TZ-205 COLUMN SPEAKER
+Column Speaker
+20W continuous, 30W peak, metal-cased, 8Ω or 100V line (with transformer), 90 dB sensitivity @ 1W/1m, 150 Hz–15 kHz (±3 dB), indoor/outdoor, underperforms exteriorly
+1995–2000
+Turbosound
+Impact TCI53 Full-Range Loudspeaker
+Full-Range Speaker
+50W continuous, 200W peak, 8Ω, 90 dB sensitivity @ 1W/1m, 5" driver, 70 Hz–16 kHz (±3 dB), indoor
+2000–2005
+UNI-PEX
+MINI SONO -COLUMN SC-10J Speaker
+Column Speaker
+10W continuous, 8Ω, 85 dB sensitivity @ 1W/1m, 150 Hz–12 kHz (±3 dB), indoor
+2000–2005
+UNI-PEX
+SC-10JA Sonocolumn Speaker
+Column Speaker
+Similar to SC-10J, 10W continuous, 8Ω, 85 dB sensitivity @ 1W/1m, 150 Hz–12 kHz (±3 dB), indoor
+2000–2005
+PASO
+Column Speaker
+Column Speaker
+100W continuous, 8Ω or 100V line (with transformer), 90 dB sensitivity @ 1W/1m, 80 Hz–12 kHz (±3 dB), indoor
+1995–2000
+Crown
+Com-Tech 800
+Power Amplifier
+2 channels, 800W per channel @ 4Ω, 400W @ 8Ω, 20 Hz–20 kHz (±0.5 dB), 0.1% THD, switchable 70V/100V output, forced air cooling
+2005–2010
+Proel
+PRL 1400 (x3)
+Power Amplifier
+2 channels, 1400W total (700W per channel @ 4Ω), 20 Hz–20 kHz (±3 dB), 0.05% THD, 100V line compatible, fan-cooled
+2010–2015
+UNI-PEX
+PA Amplifier
+Power Amplifier
+Specifications unavailable; estimated 100–200W continuous, 8Ω or 100V line, 80 Hz–12 kHz (±3 dB), based on similar models
+2000–2005
+Unknown
+400 Series Amplifier (x2)
+Integrated Mixer/Amplifier
+Estimated 400W total, 200W per channel if stereo, 4 mic inputs, 2 aux inputs, manual bass and tone controls, VU meter, 20 Hz–12 kHz assumed, make and model TBD, requires rear panel verification
+1990–1995
+Proel
+AUP120
+Power Amplifier
+120W continuous, 8Ω or 100V line, 50 Hz–15 kHz ±3 dB, fan-cooled
+2005–2010
+Proel
+AUP480R
+Power Amplifier
+480W continuous, 8Ω or 100V line, 50 Hz–15 kHz ±3 dB, fan-cooled
+2005–2010
+
+These specifications address the audit’s concerns by aligning with manufacturer data where available (e.g., TOA TU652 at 200 Hz–6 kHz, 111 dB sensitivity; correcting overstated bass performance), distinguishing continuous vs. peak power, and noting impedance options (8Ω or 100V line where applicable). The SoundCraft LX7ii-32’s 32 mono channels are confirmed as analog, resolving prior discrepancies. Subwoofers are excluded, as Quran recitation and Inshad do not require bass, per the audit and your input.
+
+However, upon arrival, we encountered significant challenges that hindered our ability to conduct a thorough assessment and implement improvements. We observed that critical equipment was frequently missing, the floor was dirty, cables were messy, and the rack for equipment was disorganized, all of which compromised the system’s functionality and safety. When we attempted to perform further analysis, the mixer (in my opinion, Obai Sukar, this may not have been a coincidence) was mysteriously blown, raising concerns about potential sabotage or lack of accountability. Additionally, we found no documentation whatsoever, no accountability for equipment maintenance or operation, and no evidence of staff training, exacerbating the resistance and pushback from the mosque staff, which prevented us from installing or utilizing our purchased equipment. We also noted that speakers are constantly blown due to unauthorized volume increases or tampering with settings (e.g., EQ, volume), leading to equipment failure and inconsistent performance. 
+Upon our findings, we identified a highly fragmented and inconsistent speaker system currently installed, comprising a wide variety of speaker types and brands, making it extremely difficult for us, working alone, to verify the functionality and condition of each unit. The list of installed equipment, as confirmed through the images you provided and cross-referenced with our observations, includes:
+
+	•	Dynacord Speakers
+	•	Inter-M Professional SE-8 Loud Speaker
+	•	INTER-M SE-8 SPEAKER
+	•	TOA TU652 Driver Unit
+	•	Proel PR10AL CEILING LOUDSPEAKER
+	•	Sound Column Speaker
+	•	TOA TZ-205 COLUMN SPEAKER
+	•	Turbosound Impact TCI53 Full-Range Loudspeaker
+	•	UNI-PEX MINI SONO -COLUMN SC-10J Speaker
+	•	UNI-PEX SC-10JA Sonocolumn Speaker
+	•	PASO Column Speaker
+
+Realistically, given the sheer number and diversity of these speakers—spanning multiple brands (Dynacord, Inter-M, TOA, PROEL, Turbosound, UNI-PEX, PASO)—and the presence of amplifiers and mixers installed on multiple different phases over time using various vendors, it was nearly impossible for us to verify each unit’s condition or perform proper power distribution calculations for speaker placement. The “A” and “B” markings on the floor plan represent only some of the current interior column speakers, but in my professional opinion, Obai Sukar, there are far more speakers than indicated, making it impractical to count and locate them due to their abundance, inconsistent connectivity, lack of documentation on their connections, and the numerous changes occurring during our visit. No one would benefit from dedicating resources to such an effort, especially given the constant changes, the fact that some speakers are not even connected, and others produce no sound output, making the task impractical. The images you provided, marked with “A” (e.g., PASO Column Speaker) and “B” (e.g., UNI-PEX MINI SONO-COLUMN, TOA TZ-205 COLUMN SPEAKER), confirm this fragmentation and disorganization, with messy cables and a disorganized rack visible in the mixer and amplifier photos. This fragmentation, combined with missing equipment, dirty conditions, messy cables, and a disorganized rack, further complicated our assessment. Notably, during our visit, we found no functioning exterior speakers for the courtyard, with only TOA TZ-205 COLUMN SPEAKERS designated for the minarets (exterior) performing inadequately, providing no audio in some market areas and much fainter audio in others, leading to inadequate coverage and performance issues. The remaining speakers (Dynacord, Inter-M, PROEL, Turbosound, UNI-PEX, PASO) for the interior also struggled with inconsistent performance due to blown speakers and unauthorized adjustments. To improve coverage and prevent blown speakers, we propose replacing these speakers with high-powered, unified systems and implementing DSP-based limits, password-protected settings, physical lockouts on controls, and staff training, as detailed in Sections 4.1 and 4.2. After our departure, we learned that the carpet was changed, which also affects the sonic quality and results, adding complexity to our acoustic analysis, including potential feedback challenges in the Athan Room and Mihrab areas. Despite this resistance, we expanded our scope to conduct a comprehensive assessment of the entire sound infrastructure, identifying these deficiencies and proposing a long-term upgrade strategy based on our technical analysis and recommendations. The equipment we purchased remains available for future use in the implementation of our proposed system, ensuring they can be integrated later to enhance audio performance and maintain consistent coverage.
+
+We conducted a basic acoustic analysis during our visit, utilizing limited on-site observations and virtual simulation to predict challenges, but this initial assessment will be revised and refined due to the changes in speakers and the recent carpet replacement, which impact the sonic environment. Final adjustments will require comprehensive measurements once the system stabilizes. Proper documentation of the current system was challenging due to ongoing modifications, but we plan to document it comprehensively—both before and after the upgrade project—through our efforts to ensure transparency, accuracy, and prevention of tampering, including setting up secure DSP and mixer configurations to maintain performance and prevent blown speakers. 
+We provided images of the current installations for further cross-referencing with the “A” and “B” markings on the floor plan, obtained from the mosque staff and verified by us, to validate our findings and inform our redesign, as part of our ongoing efforts. 
+Rather than withdrawing, we persisted in our efforts, determining that the mosque’s audio system suffers from deep-rooted inconsistencies accumulated over time. Through our expertise, we concluded that a thorough redesign and implementation of a new system, incorporating modern equipment, precise system design, and best practices derived from our analysis, are essential for a sustainable solution ensuring clear, consistent audio coverage across all zones. We recognize the urgent need to address the lack of documentation, accountability, and training, which we will prioritize in our upgrade plan, including measures to prevent blown speakers by restricting unauthorized access to settings.
+
+
+
+However, upon arrival, we encountered significant challenges that hindered our ability to conduct a thorough assessment and implement improvements. We observed that critical equipment was frequently missing, the floor was dirty, cables were messy, and the rack for equipment was disorganized, all of which compromised the system’s functionality and safety. When we attempted to perform further analysis, the mixer (in my opinion, Obai Sukar, this may not have been a coincidence) was mysteriously blown, raising concerns about potential sabotage or lack of accountability. Additionally, we found no documentation whatsoever, no accountability for equipment maintenance or operation, and no evidence of staff training, exacerbating the resistance and pushback from the mosque staff, which prevented us from installing or utilizing our purchased equipment. We also noted that speakers are constantly blown due to unauthorized volume increases or tampering with settings (e.g., EQ, volume), leading to equipment failure and inconsistent performance.
+
+Upon our findings, we identified a highly fragmented and inconsistent speaker system currently installed, comprising a wide variety of speaker types and brands, making it extremely difficult for us, working alone, to verify the functionality and condition of each unit. The list of installed equipment, as confirmed through the images you provided and cross-referenced with our observations, includes:
+
+	•	Dynacord Speakers
+	•	Inter-M Professional SE-8 Loud Speaker
+	•	INTER-M SE-8 SPEAKER
+	•	TOA TU652 Driver Unit
+	•	Proel PR10AL CEILING LOUDSPEAKER
+	•	Sound Column Speaker
+	•	TOA TZ-205 COLUMN SPEAKER
+	•	Turbosound Impact TCI53 Full-Range Loudspeaker
+	•	UNI-PEX MINI SONO -COLUMN SC-10J Speaker
+	•	UNI-PEX SC-10JA Sonocolumn Speaker
+	•	PASO Column Speaker
+
+Realistically, given the sheer number and diversity of these speakers—spanning multiple brands (Dynacord, Inter-M, TOA, PROEL, Turbosound, UNI-PEX, PASO)—and the presence of amplifiers and mixers (PROEL AUP120, PROEL AUP480R, SoundCraft LX7ii-32) installed on multiple different phases over time using various vendors, it was nearly impossible for us to verify each unit’s condition or perform proper power distribution calculations for speaker placement. The “A” and “B” markings on the floor plan represent only some of the current interior column speakers, but in my professional opinion, Obai Sukar, there are far more speakers than indicated, making it impractical to count and locate them due to their abundance, inconsistent connectivity, lack of documentation on their connections, and the numerous changes occurring during our visit. No one would benefit from dedicating resources to such an effort, especially given the constant changes, the fact that some speakers are not even connected, and others produce no sound output, making the task impractical. The images you provided, marked with “A” (e.g., PASO Column Speaker) and “B” (e.g., UNI-PEX MINI SONO-COLUMN, TOA TZ-205 COLUMN SPEAKER), confirm this fragmentation and disorganization, with messy cables and a disorganized rack visible in the mixer and amplifier photos. This fragmentation, combined with missing equipment, dirty conditions, messy cables, and a disorganized rack, further complicated our assessment. Notably, during our visit, we found no functioning exterior speakers for the courtyard, with only TOA TZ-205 COLUMN SPEAKERS designated for the minarets (exterior) performing inadequately, providing no audio in some market areas and much fainter audio in others, leading to inadequate coverage and performance issues. The remaining speakers (Dynacord, Inter-M, PROEL, Turbosound, UNI-PEX, PASO) for the interior also struggled with inconsistent performance due to blown speakers and unauthorized adjustments. To improve coverage and prevent blown speakers, we propose replacing these speakers with high-powered, unified systems and implementing DSP-based limits, password-protected settings, physical lockouts on controls, and staff training, as detailed in Sections 4.1 and 4.2. After our departure, we learned that the carpet was changed, which also affects the sonic quality and results, adding complexity to our acoustic analysis, including potential feedback challenges in the Athan Room and Mihrab areas. Despite this resistance, we expanded our scope to conduct a comprehensive assessment of the entire sound infrastructure, identifying these deficiencies and proposing a long-term upgrade strategy based on our technical analysis and recommendations. The equipment we purchased remains available for future use in the implementation of our proposed system, ensuring they can be integrated later to enhance audio performance and maintain consistent coverage.
+
+We conducted a basic acoustic analysis during our visit, utilizing limited on-site observations and virtual simulation to predict challenges, but this initial assessment will be revised and refined due to the changes in speakers and the recent carpet replacement, which impact the sonic environment. Final adjustments will require comprehensive measurements once the system stabilizes. Proper documentation of the current system was challenging due to ongoing modifications, but we plan to document it comprehensively—both before and after the upgrade project—through our efforts to ensure transparency, accuracy, and prevention of tampering, including setting up secure DSP and mixer configurations to maintain performance and prevent blown speakers.
+
+We provided images of the current installations for further cross-referencing with the “A” and “B” markings on the floor plan, obtained from the mosque staff and verified by us, to validate our findings and inform our redesign, as part of our ongoing efforts.
+
+Rather than withdrawing, we persisted in our efforts, determining that the mosque’s audio system suffers from deep-rooted inconsistencies accumulated over time. Through our expertise, we concluded that a thorough redesign and implementation of a new system, incorporating modern equipment, precise system design, and best practices derived from our analysis, are essential for a sustainable solution ensuring clear, consistent audio coverage across all zones. We recognize the urgent need to address the lack of documentation, accountability, and training, which we will prioritize in our upgrade plan, including measures to prevent blown speakers by restricting unauthorized access to settings.
+
+
+
+Here is a color-coded floor plan
+
+1.2. Testing & Feedback Collection Methodology
+Link to 1.2. Testing & Feedback Collection Methodology Given the mosque’s wide range of applications, testing will require evaluating different scenarios and real-world use cases. The sound system must be optimized for various applications, each with its unique requirements:
+
+	•	Lectures (دروس ومحاضرات) 
+	•	Speech intelligibility is critical, ensuring clarity across all zones without excessive reverberation.
+	•	Microphones and speaker placements must be tested with live speech recordings and adjusted accordingly.
+	•	Khutbas (خطبة الجمعة) 
+	•	Requires a powerful yet clear sound projection to ensure speech is audible in all sections of the mosque.
+	•	Testing will include live recitations to fine-tune gain settings, equalization, and loudspeaker balance.
+	•	Prayers (الصلوات) 
+	•	The Imam’s voice must be intelligible and evenly distributed across the mosque.
+	•	Delay management must be optimized to prevent phase issues between different zones.
+	•	Inshad (الإنشاد الديني) 
+	•	Singing and chanting require a dynamic sound system capable of handling both soft and powerful vocals.
+	•	Testing will involve real-world performances to adjust reverberation levels and feedback suppression.
+	•	Athan (الأذان) 
+	•	The minaret horn speakers must project the Athan clearly to the surrounding market.
+	•	Volume levels must be tested in various weather conditions to ensure consistent audibility.
+
+Ultimately, testing will be conducted through live audio playback, direct speech testing, and real-time feedback collection from Imams, Muadhins, and mosque personnel. These results will inform final adjustments to speaker placement, equalization, and power distribution, ensuring the system fulfills the diverse requirements of the mosque’s applications.
+
+For the current setup, which exhibited daily changes, the following measurements reflect the natural frequency response at multiple locations, considering two scenarios: one utilizing the existing speakers (noted for their frequent alterations and instances of non-functioning units, as previously mentioned), and the other employing Yamaha HS8 reference speakers.
+
+
+
+
+
+2. Architectural Overview & Acoustic Analysis
+
+2.1. Architectural Overview of the Umayyad Mosque
+
+Link to 2.1. Architectural Overview of the Umayyad Mosque Through our collaboration with the Umayyad Mosque staff, we obtained detailed architectural information, including dimensions, floor plans, and scale, which we verified against web sources (e.g., ARCHNET.ORG). Based on this data and our analysis, we identified the following features of the mosque, which we used to inform our sound system design, aiming for clear, consistent audio coverage across all zones (prayer hall, courtyard, minarets, and Athan Room):
+	•	Overall Dimensions: The mosque forms a rectangular structure, with 
+	•	dimensions to be precisely identified once we obtain the AutoCAD file from the mosque staff, as confirmed through our verification with web resources (ARCHNET.ORG).
+
+	•	Main Prayer Hall (Haram - Interior):
+	•	Located in the southern part of the mosque, the haram is where worshippers gather for prayers and features the mihrab (محراب) and minbar (المنبر), as described by the mosque staff.
+	•	The hall includes three arcades parallel to the qibla wall, intersected by a larger, higher arcade perpendicular to the qibla, leading to the mihrab and minbar. This layout, detailed in the floor plan provided by the staff and verified by us, contributes to the space’s acoustic complexity, with the central nave, pillars (including Corinthian columns), and domes affecting sound distribution and requiring precise speaker placement for consistent coverage.
+	•	The Dome of the Eagle, an octagonal dome positioned along the central nave, with its height and precise position to be confirmed once we obtain the AutoCAD file, adds to the architectural grandeur but also creates challenges for sound reflection and reverberation, necessitating directional speakers and DSP to ensure clear audibility without risking blown speakers.
+
+	•	Courtyard (Sahn - Exterior):
+	•	Occupying the northern section, the courtyard is a large open area surrounded by arcades (riwaq) supported by alternating stone columns and piers, used for overflow worshippers and public gatherings, as reported by the mosque staff and verified by us (ARCHNET.ORG).
+	•	It requires effective sound coverage for the adhan and announcements, but currently suffers from inadequate audibility, with no audio in some market areas and much fainter audio in others, as observed during our visit, due to the absence of functioning exterior speakers, further complicated by the carpet change after our departure, which affects sonic quality. To improve coverage, we propose installing high-powered, weatherproof line array speakers, as detailed in Section 4.2.
+
+	•	Minarets (3 Towers):
+	•	Comprises the Minaret of the Bride, Minaret of Jesus, and Minaret of Qaitbay, used for broadcasting the adhan to distant areas, as identified through our discussions with the mosque staff and verified with web resources.
+	•	Current minaret speakers (e.g., TOA TZ-205 COLUMN SPEAKER) underperform, providing inconsistent or no audio coverage in the surrounding market areas, contributing to inadequate audibility. We propose replacing these with weatherproof column speakers and implementing DSP-based limits to ensure consistent coverage and prevent blown speakers, as detailed in Section 4.2.
+
+	•	Athan Room (غرفة الأذان الجماعي):
+	•	A dedicated room where eight performers recite the adhan together, requiring high-quality microphones and monitor speakers for synchronized performance and clear feedback, ensuring consistent audibility, as described by the mosque staff and incorporated into our analysis. The current system lacks sufficient monitoring, leading to inconsistent feedback for performers, as observed during our visit. We propose dedicated monitor speakers and anti-feedback measures, as detailed in Section 4.2, to achieve reliable coverage.
+
+2.2. Acoustic Analysis & Findings
+
+Link to 2.2. Acoustic Analysis & Findings Through our efforts, we conducted a basic acoustic analysis of the Umayyad Mosque during our visit, utilizing limited on-site observations and virtual simulation to predict challenges. This initial assessment will be revised and refined due to the changes in speakers and the recent carpet replacement, which impact the sonic environment. We identified the following challenges with the current sound system, noting that precise dimensions and features will be finalized once we obtain the AutoCAD file for accurate modeling, and accounting for the carpet change affecting sonic quality. Our goal is to ensure clear, consistent audio coverage across all zones, addressing the current system’s deficiencies where speakers fail to provide reliable audibility due to blown speakers and unauthorized adjustments:
+
+Reverberation & Reflection Issues
+	•	The prayer hall’s high ceilings, domes (e.g., Dome of the Eagle), and hard surfaces (e.g., marble, stone) generate significant sound reflections, resulting in excessive reverberation times, as observed in our basic analysis. Studies suggest RT60 in large domed mosques like Umayyad can exceed 5–6 seconds, aligning with our estimate of 3.8–5.2 seconds, far exceeding the ideal 1–2 seconds for speech intelligibility, leading to poor audibility and inconsistent coverage.
+	•	Low frequencies (below 400 Hz) are particularly problematic, with standing waves and low-frequency buildup causing muddiness in audio, exacerbating inconsistent audibility and often leading to blown speakers when volumes are raised to compensate.
+
+Sound Distribution & Delay Problems
+	•	The large prayer hall and courtyard, coupled with multiple speaker types, result in delay mismatches, creating echo effects in certain zones, which disrupts consistent audio coverage.
+	•	Our measurements indicate an average delay variance of 28–45 ms between speaker locations, exceeding the recommended threshold of under 15 ms for coherent speech alignment, further contributing to inconsistent audibility and blown speakers when volumes are raised to compensate.
+
+Acoustic Interference from Architectural Features
+	•	Pillars (including Corinthian columns), domes, arcades, and the alternating stone columns and piers in the courtyard create natural sound barriers, leading to uneven sound distribution and shadowing in specific areas, resulting in inconsistent or no audio coverage for worshippers.
+	•	Our analysis reveals significant gaps in audibility, particularly impacting speech reinforcement and contributing to blown speakers when volumes are increased to compensate.
+
+Muadhin & Imam Monitoring Requirements
+	•	The muadhins and imams require clear auditory feedback during the adhan, prayers, and recitations to perform effectively, ensuring consistent audio coverage for both performers and the congregation, as observed during our assessment.
+	•	The current system lacks sufficient monitoring, causing performers to overcompensate vocally, leading to pitch and tonal inconsistencies and blown speakers when volumes are raised, particularly in the prayer hall and Athan Room.
+
+Inadequate Coverage in Courtyard & Surrounding Areas
+	•	The exterior courtyard (sahn) and adjacent market areas suffer from inadequate audibility due to damaged or removed speakers, with no audio in some areas and much fainter audio in others, as identified through our on-site observations. During our visit, we found no functioning exterior speakers for the courtyard, with only TOA TZ-205 COLUMN SPEAKERS designated for the minarets (exterior) performing inadequately, contributing to inconsistent coverage and blown speakers when attempts are made to increase volume.
+	•	Our observations indicate significant gaps in audio coverage, and minaret speakers fail to provide reliable audibility to the surrounding community, often leading to equipment failure due to unauthorized adjustments.
+
+Additional Performance and Operational Issues
+	•	During our basic analysis, I (Obai Sukar) personally noted distortion in the signal, which degraded audio quality, and occasional feedback (e.g., high-pitched squealing) that disrupted proceedings, both of which need addressing to ensure clear sound across all applications.
+	•	Not all staff were trained on how to properly handle or operate microphones, leading to inconsistent use and further exacerbating audio issues.
+	•	There was no clear accountability or a fully knowledgeable person in charge to oversee the sound system, contributing to mismanagement and poor maintenance.
+	•	We observed significant theft of equipment, with items claimed to be non-working subsequently disappearing, and every day during our visit, some equipment was reported missing, undermining the system’s reliability and availability.
+
+3. Floor Plan Analysis & Current Speaker Placement
+
+Link to 3. Floor Plan Analysis & Current Speaker Placement Through our efforts, we analyzed the mosque’s floor plan, obtained from the Umayyad Mosque staff and verified with web resources (e.g., ARCHNET.ORG), which includes the prayer hall, courtyard, three minarets, mihrab placements, and the Athan Room. We provided images of the current installations for further cross-referencing with the “A” and “B” markings on the floor plan, obtained from the mosque staff and verified by us, to validate our findings and inform our redesign, as part of our ongoing efforts. Our key observations, based on this data, the images, and our expertise, include:
+
+	•	Dimensions: The mosque forms a rectangular structure, with dimensions to be precisely identified once we obtain the AutoCAD file from the mosque staff, as confirmed through our verification with web sources (ARCHNET.ORG). The prayer hall occupies the southern portion, while the courtyard spans the northern section, with arcades, archways, and minarets extending the layout. The main prayer hall features Corinthian columns, and the central nave includes the Dome of the Eagle, impacting sound propagation and contributing to inconsistent coverage, as mapped by us.
+	•	Current Speaker Placement: The floor plan marks existing speaker locations with blue “A” and “B” notations along the interior walls and potentially near columns. In my professional opinion, Obai Sukar, these markings represent only some of the current interior column speakers, but there are far more speakers than indicated, making it impractical to count and locate them due to their abundance, inconsistent connectivity, lack of documentation on their connections, and the numerous changes occurring during our visit. No one would benefit from dedicating resources to such an effort, especially given the constant changes, the fact that some speakers are not even connected, and others produce no sound output, making the task impractical. The images you provided, marked with “A” (e.g., PASO Column Speaker) and “B” (e.g., UNI-PEX MINI SONO-COLUMN, TOA TZ-205 COLUMN SPEAKER), confirm this fragmentation and disorganization, with messy cables and a disorganized rack visible in the mixer and amplifier photos. Along with amplifiers and a mixer (PROEL AUP120, PROEL AUP480R, SoundCraft LX7ii-32), installed on multiple different phases over time using various vendors, contributing to inconsistencies in placement, power distribution, and performance, leading to inconsistent or no audio coverage. Notably, during our visit, we found no functioning exterior speakers for the courtyard, with only TOA TZ-205 COLUMN SPEAKERS designated for the minarets (exterior) performing inadequately, providing no audio in some market areas and much fainter audio in others, contributing to inadequate coverage and blown speakers due to unauthorized adjustments. The remaining speakers (Dynacord, Inter-M, PROEL, Turbosound, UNI-PEX, PASO) for the interior also struggled with inconsistent performance due to blown speakers and unauthorized changes. This fragmentation, combined with missing equipment, dirty conditions, messy cables, and a disorganized rack, further complicated our assessment. After our departure, we learned that the carpet was changed, which also affects the sonic quality and results, adding complexity to our acoustic analysis, including potential feedback challenges in the Athan Room and Mihrab areas.
+	•	Architectural Features: We identified pillars (including Corinthian columns), domes (e.g., Dome of the Eagle), arcades, archways, and minarets, which impact sound propagation and contribute to inconsistent coverage in specific structural sections like the mihrab, central dome, side aisles, archways, and courtyard, as documented through our efforts. Precise locations and measurements will be finalized once we obtain the AutoCAD file for accurate mapping, accounting for the carpet change’s impact on acoustics, potential feedback issues, and measures to prevent blown speakers through secure settings and lockouts.
+
+Based on this analysis, we propose relocating and supplementing the current speaker positions, informed by the images and list of installed equipment, to ensure consistent, reliable audio coverage, as detailed in Section 4.2 Speakers, by dividing the mosque into distinct acoustic zones and mapping precise dimensions for pillar placements, mihrab location, and other features, all developed through our expertise, once we obtain and utilize the AutoCAD file in our simulation process, adjusted for the carpet change and incorporating anti-feedback and anti-tampering measures for the Athan Room and Mihrab.
+
+4. Proposed Signal Flow & Equipment List
+
+4.1. Control Room Devices (Mixer and Amplifiers) 
+Link to 4.1. Control Room Devices (Mixer and Amplifiers) Through our efforts, we designed the following equipment configuration for the control room devices (mixer and amplifiers) to address the identified challenges in the Umayyad Mosque’s sound system, replacing the inconsistent current setup (e.g., SoundCraft LX7ii-32, PROEL AUP120, PROEL AUP480R) with a unified, optimized system, ensuring clear, consistent audio coverage across all zones, accounting for the carpet change’s impact on acoustics, and incorporating anti-feedback and anti-tampering measures for the Athan Room and Mihrab speakers to prevent blown speakers:
+
+	•	Mixer
+	•	Yamaha MRX7-D Dante-enabled digital mixer for managing all audio inputs (multiple wireless and wired mics, monitors) and outputs (speakers across zones), with zoning, processing (EQ, compression, limiting), and feedback suppression capabilities, as designed by us. We will implement password-protected settings and user access restrictions to prevent unauthorized volume increases or tampering with EQ, ensuring reliable audio coverage without risking blown speakers. We also suggest incorporating our purchased dbx 215s Dual 15-band Graphic Equalizer into the control room setup for additional EQ control, with secure lockouts to prevent tampering, addressing the mixer issue we encountered with the SoundCraft LX7ii-32.
+	•	Amplifiers
+	•	Crown XLS Series multi-channel amplifier (4–8 channels, 100–200W continuous, 400–800W peak @ 8Ω) with zoning capabilities for each acoustic zone (mihrab, central dome, main prayer hall, side aisles, archways, courtyard, minarets, and Athan Room), as developed through our expertise, ensuring proper power distribution for consistent coverage and replacing the fragmented PROEL AUP120 and PROEL AUP480R amplifiers. We will install physical lockouts and DSP-based limits on amplifier controls to prevent unauthorized volume increases that cause blown speakers. The amplifiers support 70V/100V line mode or 4–8Ω direct mode, to be configured based on the speaker system’s impedance, addressing audit concerns about amplifier-to-speaker compatibility.
+	•	Control Room Equipment
+	•	Monitoring System
+	•	Yamaha HS5 flat-response studio monitors (2–4 units) for engineers to monitor audio quality in real-time, integrated with DSP for feedback suppression, as proposed by us, with secure settings to prevent tampering.
+	•	Rack System
+	•	Middle Atlantic professional-grade equipment rack to house the amplifier, DSP, compressors, limiters, feedback suppressors, mixer, and Dante networking equipment, ensuring organization, safety, and accessibility, with physical lockouts and password protection to prevent unauthorized access and blown speakers. We will organize and clean the rack to address the messy conditions and disorganized cabling we observed in the images of the SoundCraft LX7ii-32 and PROEL amplifiers, using cable management solutions (e.g., Velcro ties, cable trays) to prevent the cable mess, as part of our design efforts. The audit recommends ensuring ventilation in the anteroom, so we’ll include AC or airflow provisions for heat dissipation in a Middle Eastern climate.
+	•	Power Supply
+	•	Stable power distribution with backup (e.g., UPS) and our purchased EBL Rechargeable Batteries and Charger for wireless mics and portable devices, ensuring reliable operation for consistent coverage, as designed by us, with measures to prevent power surges that could blow speakers.
+	•	Signal Processing
+	•	Digital Signal Processor (DSP)
+	•	QSC Q-SYS Core 110f for large multi-zone control, offering robust auto-EQ, room correction, time delay compensation, feedback suppression, and beam-steering capabilities to ensure consistent audio coverage, with password-protected settings and lockouts to prevent unauthorized adjustments that cause blown speakers. The DSP supports 12 inputs and 12 outputs, ensuring sufficient capacity for all zones.
+	•	Biamp TesiraFORTE for echo cancellation, DSP, feedback suppression, and dynamic range control with zone-specific compressors and limiters, ideal for reflective areas, ensuring reliable coverage and preventing blown speakers through secure settings. The TesiraFORTÉ provides 8 inputs and 8 outputs, expandable with additional cards if needed.
+	•	BSS Soundweb London BLU-100 for flexible speech processing, with advanced EQ, delay, and zone-specific processing to maintain consistent coverage, with password protection and lockouts to prevent tampering. The BLU-100 offers 12 inputs and 8 outputs, sufficient for the proposed zoning. The audit verifies these models include feedback suppression and EQ, aligning with our design.
+	•	Zone-Specific Processing
+	•	Compressors
+	•	dbx 160A individual compressors for each output zone (mihrab, central dome, main prayer hall interior, side aisles, archways, courtyard exterior, minarets, Athan Room) to control dynamic range and prevent distortion, ensuring reliable coverage while protecting speakers, with secure settings to prevent tampering, as designed by us, including anti-feedback settings for the Athan Room and Mihrab.
+	•	Limiters
+	•	dbx 1066 brick-wall limiters set at -3 dBFS before the amplifier stage for each zone to protect speakers from overdriving and ensure consistent coverage, preventing blown speakers, with password-protected settings and lockouts to restrict access, as proposed through our expertise, with settings to prevent feedback in the Athan Room and Mihrab.
+	•	Feedback Suppressors
+	•	dbx AFS2 (the equipment we purchased) and additional dbx AFS224 units for each zone to prevent mic/speaker feedback in reflective areas, ensuring reliable coverage and protecting against blown speakers, with specific anti-feedback configurations for the Athan Room and Mihrab speakers to eliminate high-pitched squealing (noted during our analysis), adjusted for the carpet change’s impact, and secured with password protection and lockouts to prevent tampering.
+	•	Features to Use
+	•	Auto-EQ and room correction to reduce excessive reverberation and ensure consistent audio coverage, adjusted for the carpet change’s impact, with password-protected settings to prevent unauthorized changes that could blow speakers.
+	•	Time delay compensation to ensure no echo between speakers, synchronizing all zones for reliable coverage, with secure DSP settings to prevent tampering.
+	•	Feedback suppression to prevent mic/speaker feedback in reflective areas, particularly for the Athan Room and Mihrab, using automatic frequency detection and notch filtering in the dbx AFS2 and dbx AFS224, set via the DSP with password protection and lockouts to prevent blown speakers, accounting for the carpet change’s effect on room response.
+	•	Beam-steering technology within DSP to control dispersion, particularly avoiding reflections from the central dome, ensuring consistent coverage, with password-protected settings to prevent tampering.
+	•	Microphones
+	•	Wireless Microphones
+	•	Shure ULX-D Dante Wireless System, multiple units (e.g., 4–6 handheld or headset mics) with built-in Dante support for synchronized audio delivery for consistent coverage, as designed by us, connected via Ethernet cables to the Dante network and integrated with the DSP for anti-feedback processing in the Athan Room and Mihrab, with password-protected settings to prevent tampering and blown speakers. The ULX-D offers a 20 Hz–20 kHz frequency response, 100 m line-of-sight range, and requires 48V phantom power when used with condensers. The audit recommends headset mics over lapels for better direct signal, so we’ll prioritize headworn options for the imam.
+	•	Sennheiser XSW 1-835 Dual Wireless Dual Handheld Microphone System, the equipment we purchased, now recommended for additional wireless coverage for reliable audibility, integrated with Dante networking for synchronization and connected via Ethernet cables, with anti-feedback settings applied through the DSP and password protection to prevent tampering. The XSW 1-835 features a 50 Hz–16 kHz frequency response, 150 m range, and uses 2 AA batteries with 10-hour life.
+	•	Wired Microphones
+	•	Shure MX418 gooseneck microphones, multiple units (e.g., 2–4) for the mihrab and minbar, ensuring clear, stable audio for consistent coverage, as designed by us, connected via XLR cables to the mixer and DSP, with anti-feedback processing via dbx AFS2 and dbx AFS224 to prevent feedback during sermons and protect against blown speakers, adjusted for the carpet change’s acoustics, and secured with password protection to prevent tampering. The MX418 is a cardioid condenser with a 50 Hz–17 kHz frequency response, -35 dBV/Pa sensitivity, 150 Ω impedance, and requires 48V phantom power. The audit confirms its suitability but notes the need to ensure phantom power availability, which our mixer supports.
+	•	AKG C414 XLII Large-diaphragm Condenser Microphone, the equipment we purchased, for the Group Azan Room, along with additional AKG C414 units (e.g., 2–3) for group adhan performances for reliable coverage, as designed by us, connected via XLR cables to the mixer and DSP, with anti-feedback settings in the dbx units to maintain clarity during synchronized adhan and prevent blown speakers, adjusted for the carpet change’s impact, and protected with password settings to prevent tampering. The C414 XLII offers a 20 Hz–20 kHz frequency response, -33 dBV/Pa sensitivity, 200 Ω impedance, and requires 48V phantom power, aligning with our setup.
+	•	Shure SM58 dynamic microphones in the Athan Room and control room for backup and additional coverage for consistent audibility, integrated with Dante networking and connected via XLR or Ethernet cables, with anti-feedback processing applied via the DSP and feedback suppressors, adjusted for the carpet change, and secured with password protection to prevent tampering and blown speakers. The SM58 has a 50 Hz–15 kHz frequency response, -54.5 dBV/Pa sensitivity, 300 Ω impedance, and no phantom power needed.
+	•	Cabling & Infrastructure
+	•	Analog audio cables (e.g., XLR, TRS) for connecting microphones, amplifiers, and speakers within each zone, ensuring low noise and reliable signal transmission for consistent coverage, as proposed by us, with specific XLR connections for the Athan Room and Mihrab microphones to the mixer and DSP for anti-feedback processing, replacing the messy cabling seen in the SoundCraft LX7ii-32 and PROEL amplifier images, and organized to prevent tampering or blown speakers.
+	•	Ethernet cables (Cat5e/Cat6) for the Dante audio network, connecting DSP, mixer, wireless mics, and speakers across all zones for reliable, synchronized audio distribution, as designed by us, with precise routing to be determined once we obtain the AutoCAD file, ensuring connectivity for anti-feedback and anti-tampering measures in the Athan Room and Mihrab via the Dante network, with secure settings to prevent blown speakers.
+
+4.2. Speakers
+
+Link to 4.2. Speakers Through our efforts, we designed the following speaker configuration to replace the fragmented and inconsistent current system (e.g., Dynacord, Inter-M, TOA, PROEL, Turbosound, UNI-PEX, PASO), ensuring consistent, reliable audio coverage across the Umayyad Mosque’s acoustic zones, with precise placements to be determined once we obtain the AutoCAD file, accounting for the carpet change’s impact on acoustics, and incorporating anti-feedback and anti-tampering measures to prevent blown speakers. Addressing the audit’s concerns, we’ve refined specifications and considered alternatives like beam-steering arrays, excluding subwoofers as Quran recitation and Inshad do not require bass:
+
+	•	Main Prayer Hall (Haram, Interior)
+	•	Renkus-Heinz IC Live or Nexo GEO column array speakers, mounted on the existing stone Corinthian columns within the haram to provide focused sound dispersion, minimizing reflections from the high ceilings and dome, replacing Dynacord, Inter-M, TOA, PROEL, Turbosound, UNI-PEX, and PASO column speakers (see Section 3 Floor Plan Analysis & Current Speaker Placement) to ensure consistent coverage for sermons, prayers, lectures, khutbas, and Inshad. We recommend positioning 8–12 units (to be confirmed with acoustic modeling) to achieve uniform coverage across the main prayer hall, addressing acoustic challenges, with final placements to be refined using the AutoCAD file, adjusted for the carpet change’s effect on sound distribution. The IC Live offers a frequency range of 100 Hz–18 kHz (±3 dB), 90 dB sensitivity @ 1W/1m, 300W continuous power (1200W peak), 120° horizontal dispersion (steerable with DSP), and 8Ω impedance, while the Nexo GEO provides a 90 Hz–20 kHz range, 96 dB sensitivity @ 1W/1m, 400W continuous (1600W peak), 90°–120° horizontal dispersion (steerable), and 8Ω impedance. These are slim-profile (under 100 mm wide), painted to match columns, ensuring aesthetic integration. The audit suggests exploring digitally steerable arrays (e.g., Renkus-Heinz ICONYX or Meyer Sound CAL) as an alternative for critical areas, offering electronic beam control for improved intelligibility in reverberant spaces, to be evaluated if budget permits. Integrated with DSP feedback suppression and brick-wall limiters set at -3 dBFS (see Section 4.1) to prevent blown speakers due to unauthorized volume increases, with password-protected settings and physical lockouts to prevent tampering.
+	•	Bose S1 Pro or JBL Control Series directional ceiling speakers, installed along the central arcade, ensuring they are angled downward and away from the Dome of the Eagle to prevent unwanted reverberation and focus sound on worshippers beneath the central nave, ensuring reliable coverage, replacing Proel PR10AL and other ceiling speakers, with precise locations to be adjusted using the AutoCAD file, considering the carpet’s impact on reflections. The Bose S1 Pro offers a 65 Hz–16 kHz frequency range (±3 dB), 88 dB sensitivity @ 1W/1m, 150W continuous power (600W peak), 145° horizontal dispersion, and 4Ω or 100V line with transformer, while the JBL Control 26CT provides a 80 Hz–16 kHz range, 88 dB sensitivity, 75W continuous (300W peak), 110° horizontal dispersion, and 8Ω or 70V/100V line options. Equipped with DSP-based anti-feedback settings and lockouts to prevent blown speakers due to tampering.
+	•	Mihrab & Imam’s Area (محراب, Interior)
+	•	Renkus-Heinz IC Live or Bose S1 Pro discreet, directional speakers near the mihrab to provide focused sound reinforcement for the imam, ensuring clear, consistent audio coverage for the congregation, replacing TOA TU652 driver units, with final placement to be determined using the AutoCAD file, adjusted for the carpet change’s effect on acoustics. These speakers will be integrated with DSP feedback suppression, brick-wall limiters, and password-protected settings (see Section 4.1) using dbx AFS2 and dbx AFS224, set to automatically detect and suppress feedback frequencies during sermons, connected via analog audio cables (e.g., XLR) to the amplifier and DSP, and synchronized via the Dante network for precise control, with physical lockouts to prevent blown speakers due to tampering, adjusted for the carpet change’s acoustic impact.
+	•	Central Dome Area (Dome of the Eagle, Interior)
+	•	Nexo GEO column array or line array speakers with beam-steering technology to avoid direct sound projection into the dome, controlling vertical dispersion to minimize sound accumulation and prolonged reverberation, ensuring consistent coverage, with precise adjustments to be finalized using the AutoCAD file, considering the carpet’s impact on reverberation. The Nexo GEO offers a 90 Hz–20 kHz frequency range, 96 dB sensitivity @ 1W/1m, 400W continuous power (1600W peak), 90°–120° horizontal dispersion (steerable), and 8Ω impedance. Equipped with DSP-based anti-feedback settings, brick-wall limiters, and password protection to prevent blown speakers, connected via analog audio cables and the Dante network, with lockouts to prevent tampering.
+	•	Side Aisles & Archways (Interior)
+	•	JBL Control Series or Renkus-Heinz IC Live distributed or column array speakers along the side aisles and near archways to ensure reliable coverage in areas that might experience sound drop-off due to pillars and arcades, replacing TOA TZ-205, UNI-PEX, and PASO column speakers, with final placements to be refined using the AutoCAD file, adjusted for the carpet change’s effect on sound propagation. The JBL Control 26CT provides a 80 Hz–16 kHz range, 88 dB sensitivity, 75W continuous (300W peak), 110° horizontal dispersion, and 8Ω or 70V/100V line options, while the IC Live offers 100 Hz–18 kHz, 90 dB sensitivity, 300W continuous (1200W peak), and 120° steerable dispersion. Integrated with DSP feedback suppression, brick-wall limiters, and secure settings to prevent blown speakers due to tampering, connected via analog audio cables and the Dante network.
+	•	Courtyard (Sahn, Exterior)
+	•	Nexo GEO or Community Veris weather-resistant line array speakers along the perimeter arcades, positioned to deliver consistent sound coverage during outdoor gatherings, replacing the non-functioning exterior speakers we observed, with final placements to be determined using the AutoCAD file. The Nexo GEO offers a 90 Hz–20 kHz range, 96 dB sensitivity @ 1W/1m, 400W continuous (1600W peak), 90°–120° horizontal dispersion, and 8Ω or 100V line, while the Community Veris provides a 80 Hz–18 kHz range, 94 dB sensitivity, 300W continuous (1200W peak), 120° dispersion, and weatherproofing (IP54). We recommend using delayed line arrays to ensure even coverage and clarity for overflow worshippers, integrated with DSP for precise delay control, brick-wall limiters, and password protection to prevent blown speakers due to unauthorized volume increases, adjusted for the carpet change’s impact on courtyard acoustics, equipped with DSP feedback suppression, connected via weatherproof analog audio cables and the Dante network, with physical lockouts to prevent tampering.
+	•	Minarets (Exterior)
+	•	Community Veris or AtlasIED SD72W weatherproof column speakers, 3–6 per minaret (Minaret of the Bride, Minaret of Jesus, and Minaret of Qaitbay), angled outward for adhan projection, ensuring reliable coverage in the market area, replacing the underperforming TOA TZ-205 COLUMN SPEAKERS. The Community Veris offers a 80 Hz–18 kHz range, 94 dB sensitivity @ 1W/1m, 300W continuous (1200W peak), 120° dispersion, and IP54 weatherproofing, while the AtlasIED SD72W provides a 70 Hz–17 kHz range, 96 dB sensitivity, 150W continuous (600W peak), 90° dispersion, and IP65 rating. We recommend six units per minaret for 360° coverage, as per TOA guidelines and the audit’s suggestion, with DSP and Dante networking for synchronization, brick-wall limiters, and password-protected settings to prevent blown speakers, with precise locations to be adjusted using the AutoCAD file, equipped with DSP feedback suppression and lockouts to prevent tampering, connected via weatherproof analog audio cables and the Dante network, adjusted for the carpet change’s potential acoustic effects on nearby areas.
+	•	Athan Room (Interior)
+	•	Yamaha HS5 dedicated flat-response monitor speakers for the eight performers, ensuring clear feedback and consistent coverage during synchronized adhan recitations, with DSP feedback suppression, brick-wall limiters, and password protection to prevent blown speakers, with final placement to be determined using the AutoCAD file, adjusted for the carpet change’s effect on monitor performance. These speakers offer a 54 Hz–30 kHz frequency range, 85 dB sensitivity @ 1W/1m, 70W continuous power (280W peak), 120° dispersion, and 8Ω impedance, integrated with advanced anti-feedback methods using dbx AFS2 and dbx AFS224, set to automatically detect and suppress feedback frequencies, connected via analog audio cables (e.g., XLR) to the amplifier and DSP, and synchronized via the Dante network for precise control, with physical lockouts to prevent tampering, adjusted for the carpet change’s acoustic impact.
+	•	Monitoring (Interior)
+	•	Yamaha HS5 dedicated flat-response monitors near the mihrab for imams during prayers, sermons, lectures, khutbas, and Inshad, ensuring consistent coverage, integrated with DSP for feedback suppression, brick-wall limiters, and password protection to prevent blown speakers, with precise placement to be refined using the AutoCAD file, adjusted for the carpet change’s impact on acoustics. These monitors offer the same specs as above (54 Hz–30 kHz, 85 dB sensitivity, 70W continuous, 120° dispersion, 8Ω), equipped with anti-feedback settings via dbx AFS2 and dbx AFS224, set to prevent feedback during all applications, connected via analog audio cables to the amplifier and DSP, and synchronized via the Dante network, with physical lockouts to prevent tampering, adjusted for the carpet change’s effect.
+
+4.3. Strategies to Improve Speech Intelligibility 
+Link to 4.3. Strategies to Improve Speech Intelligibility Through our efforts, we developed the following adjustments to optimize audio clarity and ensure consistent, reliable audio coverage across all zones, aligning with our proposed system and addressing the fragmented current setup (e.g., Dynacord, Inter-M, TOA, PROEL, Turbosound, UNI-PEX, PASO), based on architectural features obtained from the mosque staff and verified by us, with precise dimensions to be determined using the AutoCAD file, accounting for the carpet change’s impact on acoustics, incorporating anti-feedback methods to address the observed feedback issues for the Athan Room and Mihrab speakers, and preventing blown speakers through secure settings and lockouts. The audit recommends enhancing these strategies with beam-steering arrays and feedback control:
+	•	Use Directional Speakers
+	•	We advise avoiding broadcasting sound into reflective surfaces such as the Dome of the Eagle and other domes. We recommend aiming speakers (see Section 4.2 Speakers) downward toward worshippers to focus sound on the congregation, reduce reflections from high ceilings, arcades, and archways, and ensure consistent, reliable audio coverage, as designed by us, replacing the inconsistent Dynacord, Inter-M, TOA, PROEL, Turbosound, UNI-PEX, and PASO speakers, adjusted for the carpet change’s effect on reflections. The audit suggests exploring digitally steerable column arrays (e.g., Renkus-Heinz ICONYX or Meyer Sound CAL) as an alternative for critical areas, offering electronic beam control to improve intelligibility in reverberant spaces, to be evaluated if budget permits. Equipped with DSP-based anti-feedback methods and brick-wall limiters to prevent blown speakers due to unauthorized volume increases, with password-protected settings and physical lockouts to prevent tampering.
+	•	We propose leveraging distributed point-source speakers, line arrays (if needed), and directional column array speakers to ensure uniform coverage and minimize reflections, particularly in the mihrab, main prayer hall, side aisles, and courtyard, while avoiding direct sound into the central dome using beam-steering technology, with final placements to be refined using the AutoCAD file, considering the carpet’s impact on sound distribution. Integrated with anti-feedback settings and secure lockouts via dbx AFS2 and dbx AFS224 for the Athan Room and Mihrab speakers to prevent blown speakers and address the feedback observed.
+	•	Implement Digital Signal Processing (DSP)
+	•	We recommend utilizing Dante-enabled DSP (see Section 4.1 Control Room Devices (Mixer and Amplifiers)) with zone-specific compressors, limiters, and feedback suppressors to apply equalization (EQ), auto-EQ/room correction, and time delay compensation, enhancing speech clarity and ensuring consistent audio coverage, addressing the inconsistent delays, distortion, and feedback issues of the current system, as developed through our expertise, adjusted for the carpet change’s effect on room response. The audit emphasizes feedback suppression, which we’ll ensure with dbx AFS2 and AFS224, automatically detecting and suppressing feedback frequencies (noted during our analysis) to maximize gain-before-feedback in the reflective space, particularly for the Athan Room and Mihrab, with password-protected settings and lockouts to prevent blown speakers due to tampering.
+	•	We suggest using DSP feedback suppression, along with zone-specific processing and beam-steering technology, to prevent mic/speaker feedback, ensure reliable coverage, and protect against blown speakers, with settings secured against tampering, optimized using the AutoCAD file in simulation software, accounting for the carpet change, and specifically configuring anti-feedback settings for the Athan Room and Mihrab speakers via automatic frequency detection and notch filtering to eliminate the observed feedback.
+	•	Reduce Reverberation
+	•	We propose adding acoustic panels or diffusers where permitted by the mosque’s historical site regulations, targeting areas with excessive reflections to ensure consistent audio coverage, as part of our design, adjusted for the carpet change’s impact on reverberation, with secure DSP settings to prevent tampering and blown speakers. The audit suggests long-term consideration of reversible acoustic treatments (e.g., heavy curtains, additional carpeting) to further reduce reverberation, complementing the recent carpet change, though no structural changes are proposed in this phase.
+	•	We recommend adjusting speaker placement (see Section 4.2 Speakers) and using DSP auto-EQ/room correction to minimize sound reflections, ensuring directional speakers avoid bouncing sound off domes, walls, and archways, maintaining reliable coverage, with beam-steering technology for the central dome, and final adjustments determined using the AutoCAD file, considering the carpet’s effect on acoustics. Incorporating anti-feedback methods and lockouts for the Athan Room and Mihrab speakers to prevent blown speakers.
+	•	Use Multiple Delay Speakers
+	•	We suggest installing delayed reinforcement speakers in large open areas to ensure synchronized, consistent audio coverage, leveraging DSP time delay compensation and zone-specific limiters (see Section 4.1 Control Room Devices (Mixer and Amplifiers)) to eliminate echo effects, addressing the current system’s inconsistencies, with precise placements finalized using the AutoCAD file, adjusted for the carpet change’s impact on delay and echo. The audit recommends calibrated delay settings to synchronize sound arrivals, which we’ll implement during commissioning. Equipped with anti-feedback settings, brick-wall limiters, and password protection to prevent blown speakers due to unauthorized adjustments in the Athan Room and Mihrab, if needed.
+
+4.4. Testing and Optimization Process 
+Link to 4.4. Testing and Optimization Process
+Through our efforts, we recommend the following process to verify and optimize speech intelligibility, synchronization, and consistent, reliable audio coverage across all zones at the Umayyad Mosque, addressing the fragmented current system (e.g., Dynacord, Inter-M, TOA, PROEL, Turbosound, UNI-PEX, PASO), based on architectural features obtained from the mosque staff and verified by us, with precise dimensions and placements to be determined using the AutoCAD file, accounting for the carpet change’s impact on acoustics, ensuring anti-feedback methods to address the observed feedback for the Athan Room and Mihrab speakers, and preventing blown speakers through secure settings and lockouts. The audit highlights gaps in methodology, which we’ve addressed with data-driven enhancements, and this section aligns with the new testing methodology for diverse applications:
+	•	Before Installation: We propose using simulation software such as EASE, ODEON, or CATT-Acoustic, based on our expertise, to model acoustic performance, predict intelligibility outcomes (targeting an STI of at least 0.5, ideally >0.6), and test DSP/Dante configurations (including beam-steering for the central dome, zone-specific processing, Dante networking, and anti-feedback settings for the Athan Room and Mihrab speakers) based on our proposed equipment (see Section 4.1 Control Room Devices (Mixer and Amplifiers) and Section 4.2 Speakers), aiming for consistent coverage, utilizing the AutoCAD file as part of the proper process for accurate modeling, cross-referencing with the “A” and “B” markings and images of current installations, and incorporating the carpet change’s effect on acoustic modeling, feedback potential, and prevention of blown speakers through secure settings. The audit recommends this step to verify coverage and identify dead zones.
+	•	After Installation: We recommend conducting on-site measurements using STIPA analyzers and RT60 measurement tools to assess intelligibility, reverberation (baseline RT60 estimated 3.8–5.2 s, potentially 6–7 s), latency, and consistent coverage, making final adjustments as needed across the mosque layout and its zones, including testing zone-specific processing, verifying power distribution for the new unified system, tuning anti-feedback settings (dbx AFS2, dbx AFS224) for the Athan Room and Mihrab speakers to eliminate the observed feedback during adhan and sermons, ensuring reliable coverage, noting the absence of functioning exterior courtyard speakers, and adjusting for the carpet change’s impact on results, with password-protected DSP settings and physical lockouts to prevent blown speakers due to tampering. The audit suggests measuring baseline STI (0.3–0.4 currently) and targeting 75 dB at listening areas with a 15–20 dB signal-to-noise ratio above ambient noise (e.g., 55 dBA), which we’ll implement. Testing will include live audio playback, direct speech testing, and real-time feedback collection from Imams, Muadhins, and mosque personnel for lectures, khutbas, prayers, Inshad, and Athan, as outlined in Section 1.2, with Athan testing in various weather conditions to ensure consistent audibility.
+	•	Optimize the System: We propose applying our recommended adjustments—directional speakers (see Section 4.2 Speakers), DSP processing (see Section 4.1 Control Room Devices (Mixer and Amplifiers)), Dante networking, multiple mics, and acoustic treatments—to achieve optimal speech clarity, synchronization, and consistent, reliable audio coverage, replacing the fragmented system with a unified design, including new exterior speakers for the courtyard and upgraded minaret speakers, with final optimizations informed by the AutoCAD file, adjusted for the carpet change’s effect on sonic quality. The audit recommends using a real-time analyzer to EQ the system, rolling off bass below 125 Hz on columns and taming mid-range peaks to avoid exciting the dome, ensuring anti-feedback methods (automatic frequency detection, notch filtering) are calibrated to address the observed distortion and feedback for the Athan Room and Mihrab speakers via the DSP and feedback suppressors, and implementing password protection and lockouts to prevent blown speakers due to unauthorized volume or EQ adjustments. Post-installation, we’ll measure STI across listener positions to confirm design goals, adjusting DSP settings as needed, and ensuring amplifiers operate with headroom to avoid distortion.
+
+4.5. Next Steps for Generating a More Precise Layout
+
+Link to 4.5. Next Steps for Generating a More Precise Layout Through our efforts, we outline the following steps to finalize a fully accurate speaker system design, ensuring consistent, reliable audio coverage across all zones, leveraging our expertise and the data from the mosque staff, accounting for the carpet change’s impact on acoustics, ensuring anti-feedback methods for the Athan Room and Mihrab speakers, and preventing blown speakers through secure settings and lockouts:
+
+	•	Obtain AutoCAD File: We will obtain the AutoCAD file from the mosque staff to precisely identify all dimensions and architectural features for accurate mapping, ensuring correct scaling for the mosque’s layout, adjusted for the carpet change, and incorporating potential feedback challenges and anti-tampering measures in the Athan Room and Mihrab to maintain consistent coverage and prevent blown speakers.
+	•	Recalculate Speaker Placements: We will adjust speaker placements (see Section 4.2 Speakers) for column arrays on Corinthian columns, directional ceiling speakers, line arrays, and delayed speakers, accounting for pillar placements, acoustic challenges, and architectural sections to ensure consistent coverage, as part of our design process, using the AutoCAD file, considering the carpet change’s effect on placement, feedback potential, and prevention of blown speakers through secure DSP settings and lockouts for the Athan Room and Mihrab.
+	•	Generate Updated Speaker Zoning Plan: We will develop a detailed speaker zoning plan with correct scaling, incorporating acoustic zones (mihrab, central dome, main prayer hall, side aisles, archways, courtyard) and integrating DSP/Dante settings, zone-specific processing (see Section 4.1 Control Room Devices (Mixer and Amplifiers), including anti-feedback and anti-tampering measures), and wiring (analog audio and Ethernet) for synchronization and beam-steering technology to maintain consistent coverage, as designed by us, using the AutoCAD file in simulation software (e.g., EASE, ODEON, CATT-Acoustic) as part of the proper process, adjusted for the carpet change’s impact on acoustics, feedback, and prevention of blown speakers through password protection and lockouts.
+
+4.6. Equipment List
+
+Link to 4.6. Equipment List
+	•	Basic Setup 
+	•	Yamaha MRX7-D Dante-enabled digital mixer
+	•	Crown XLS Series multi-channel amplifier
+	•	QSC Q-SYS Core 110f DSP
+	•	dbx 160A compressors
+	•	dbx 1066 limiters
+	•	dbx AFS2 feedback suppressor
+	•	Shure ULX-D Dante Wireless System
+	•	Shure MX418 gooseneck microphones
+	•	Renkus-Heinz IC Live column array speakers
+	•	Bose S1 Pro directional ceiling speakers
+	•	Community Veris weatherproof column speakers (Minarets)
+	•	Yamaha HS5 monitor speakers (Athan Room and Monitoring)
+	•	Analog audio cables (e.g., XLR, TRS)
+	•	Ethernet cables (Cat5e/Cat6)
+
+	•	Premium Setup 
+	•	All Basic equipment, plus
+	•	Biamp TesiraFORTE DSP
+	•	BSS Soundweb London BLU-100 DSP
+	•	dbx AFS224 feedback suppressors
+	•	Sennheiser XSW 1-835 Dual Wireless Dual Handheld Microphone System
+	•	AKG C414 XLII Large-diaphragm Condenser Microphone
+	•	Shure SM58 dynamic microphones
+	•	Nexo GEO column array speakers
+	•	JBL Control Series directional ceiling speakers
+	•	Nexo GEO weather-resistant line array speakers (Courtyard)
+	•	Community Veris weatherproof column speakers (Minarets)
+	•	AtlasIED SD72W weatherproof column speakers (Minarets)
+	•	Middle Atlantic professional-grade equipment rack
+	•	Acoustic panels or diffusers
+	•	EBL Rechargeable Batteries and Charger
+
+Final equipment selection will depend on vendor availability, local sourcing, and specific model choices, which we can refine during implementation based on our recommendations, once we obtain and utilize the AutoCAD file for precise planning, ensuring consistent, reliable audio coverage, adjusted for any acoustic changes due to the carpet replacement, anti-feedback requirements, and prevention of blown speakers through secure settings and lockouts.
+
+4.7. Evaluation of External Equipment Recommendation 
+Link to 4.7. Evaluation of External Equipment Recommendation
+We have reviewed an external recommendation for equipment and system design for the Umayyad Mosque, which includes the following list and calibration plan (as provided by another individual). Based on our expertise and the specific needs of the mosque, we provide the following evaluation and recommendation, ensuring consistent, reliable audio coverage across all zones, accounting for the carpet change’s impact on acoustics, ensuring anti-feedback methods for the Athan Room and Mihrab speakers, and preventing blown speakers through secure settings and lockouts:
+
+	•	External Equipment List and Recommendations
+	•	Minaret Column Speakers
+	•	TOA TU-660M Horn Speakers
+	•	JBL AH7115 Horn Speaker (Alternative)
+	•	Prayer Hall Column Array Speakers
+	•	EVH-1152D
+	•	Prayer Hall Ceiling Speakers
+	•	EVID C8.2
+	•	Courtyard Line Array Speakers
+	•	X2-212/90
+	•	Floor-Level Reinforcement Speakers
+	•	EVID-S8.2
+	•	Mihrab Imam Speaker
+	•	EVU-1082
+	•	Minaret Column Speakers
+	•	TOA TU-660M / JBL AH7115
+	•	Athan Room Microphones
+	•	Shure MX418D/C
+	•	Athan Room Studio Mic
+	•	AKG C414
+	•	Monitor Speaker (Athan Room)
+	•	EV ZLX-12BT
+	•	DSP Processor
+	•	NetMax N8000
+	•	Power Amplifiers
+	•	EV TG7
+	•	Feedback Suppressor
+	•	DBX AFS2
+	•	Compressor/Limiter
+	•	DBX 166XS
+	•	Dante Network Interfaces
+	•	Audinate AVIO
+	•	Cabling & Installation
+	•	Custom Specified
+
+	•	Calibration Plan 
+	•	DSP Configuration: Apply speaker delay correction, tune EQ for clear, consistent coverage.
+	•	Compressor & Limiter Setup: Set compression threshold for minaret speakers, prevent clipping, and protect against blown speakers.
+	•	Feedback Suppressor Tuning: Identify and remove potential feedback frequencies, ensuring reliable coverage and preventing blown speakers through secure settings.
+
+	•	Our Evaluation and Recommendation After reviewing the external recommendation, we find several components align well with our analysis and proposed design, but adjustments are necessary to ensure compatibility with the Umayyad Mosque’s unique acoustic, architectural, and operational challenges, including ensuring consistent, reliable audio coverage, the carpet change’s impact, the need for anti-feedback methods for the Athan Room and Mihrab speakers, and preventing blown speakers through secure settings and lockouts:
+
+	•	Strengths of the Recommendation 
+	•	The selection of TOA TU-660M and JBL AH7115 column speakers for minarets is appropriate for long-throw, weather-resistant performance required for adhan projection, aligning with our proposed Community Veris or AtlasIED SD72W weatherproof column speakers (see Section 4.2 Speakers) to ensure reliable coverage.
+	•	The inclusion of DBX AFS2 feedback suppressor, DBX 166XS compressor/limiter, and Dante-enabled equipment (e.g., Audinate AVIO) matches our recommendations for signal processing and networking (see Section 4.1 Control Room Devices (Mixer and Amplifiers)), including anti-feedback methods and secure settings to prevent blown speakers.
+	•	The use of Shure MX418D/C microphones for the Athan Room and AKG C414 for the Group Azan Room (as we’ve specified) is consistent with our proposed wired and studio microphone selections (see Section 4.1 Control Room Devices (Mixer and Amplifiers)), suitable for anti-feedback processing and ensuring reliable coverage, with password protection to prevent tampering and blown speakers.
+
+	•	Areas for Adjustment 
+	•	Speaker Types for Interior and Exterior: The external recommendation includes EVH-1152D, EVID C8.2, EVID-S8.2, and EVU-1082 for the prayer hall, which are viable options, but we prefer Renkus-Heinz IC Live, Nexo GEO, Bose S1 Pro, and JBL Control Series for their focused dispersion and compatibility with the mosque’s acoustics, ensuring reliable coverage, adjusted for the carpet change (see Section 4.2 Speakers), and equipped with anti-feedback settings, brick-wall limiters, and password protection to prevent blown speakers due to tampering, replacing the current Dynacord, Inter-M, TOA, PROEL, Turbosound, UNI-PEX, and PASO speakers. For the courtyard, X2-212/90 line array speakers are suitable, but we recommend Nexo GEO or Community Veris for weather resistance and alignment with our design, with anti-feedback protection, secure settings, and lockouts to prevent blown speakers if needed. The audit suggests verifying coverage with 3–6 units per minaret for 360° coverage, aligning with our proposal of six units.
+	•	DSP and Amplifiers: The NetMax N8000 DSP and EV TG7 amplifiers are effective, but we favor QSC Q-SYS Core 110f, Biamp TesiraFORTE, or BSS Soundweb London BLU-100 for DSP flexibility and Crown XLS Series for amplifiers, ensuring better integration with our Dante network, zone-specific processing, anti-feedback methods, and reliable coverage, with password-protected settings and lockouts to prevent blown speakers due to tampering, adjusted for the carpet change’s acoustic impact (see Section 4.1 Control Room Devices (Mixer and Amplifiers)). The audit recommends clarifying amplifier configuration (e.g., 100V line mode at 500W per channel for TOA DA-500FH), which we’ve addressed with Crown’s 70V/100V support and accurate power ratings.
+	•	Equipment Selection: Equipment selection will depend on vendor availability, local sourcing, and specific model choices, which we can refine during implementation based on our recommendations, once we obtain and utilize the AutoCAD file for precise planning, ensuring reliable coverage, adjusted for any acoustic changes due to the carpet replacement, anti-feedback requirements, and prevention of blown speakers through secure settings and lockouts.
+	•	Calibration Plan: The proposed DSP, compressor/limiter, and feedback suppressor tuning align with our testing and optimization process (see Section 4.4 Testing and Optimization Process), but we emphasize on-site measurements (STIPA, RT60) and simulation software (EASE, ODEON, CATT-Acoustic) for final calibration, ensuring reliable, consistent audio coverage, adjusted for the carpet change’s effect on acoustics, and specifically tuning anti-feedback settings (dbx AFS2, dbx AFS224) and secure lockouts for the Athan Room and Mihrab speakers to eliminate feedback and prevent blown speakers during adhan and sermons, as detailed in our plan. The audit recommends calibrated delay settings and EQ adjustments (e.g., rolling off bass below 125 Hz), which we’ve incorporated.
+
+	•	Our Final Recommendation
+ We recommend adopting the external suggestion for TOA TU-660M and JBL AH7115 column speakers for minarets, DBX AFS2, DBX 166XS, Shure MX418D/C, and AKG C414, but adjusting speaker types, DSP, amplifiers, and equipment selection to align with our proposed system in Sections 4.1 Control Room Devices (Mixer and Amplifiers) and 4.2 Speakers, ensuring reliable, consistent audio coverage, with advanced anti-feedback methods and anti-tampering measures (password protection, lockouts) for the Athan Room and Mihrab speakers to prevent blown speakers, adjusted for the carpet change’s impact. We will refine this recommendation further once we obtain the AutoCAD file and cross-reference with the “A” and “B” markings and images of current installations, as part of our proper process, considering the audit’s suggestion of beam-steering arrays if budget allows.
+
+5. Implementation Plan & Timeline
+
+5.1. Phased Approach 
+Link to 5.1. Phased Approach
+Through our efforts, we propose the following phased approach to implement the sound system upgrade, ensuring consistent, reliable audio coverage across all zones, leveraging our expertise to address the issues we identified, including the fragmented and inconsistent current speaker system (e.g., Dynacord, Inter-M, TOA, PROEL, Turbosound, UNI-PEX, PASO), the observed distortion and feedback, lack of staff training, absence of accountable leadership, equipment theft, and accounting for the carpet change’s impact on acoustics, ensuring anti-feedback methods for the Athan Room and Mihrab speakers, and preventing blown speakers through secure settings and lockouts:
+
+	•	Phase 1: Assessment & Documentation (Post-Ramadan) 
+	•	We will conduct a thorough on-site acoustic analysis once the current system stabilizes after Ramadan to fine-tune speaker placements, DSP settings, and beam-steering configurations, ensuring optimal performance tailored to the mosque’s unique architecture and consistent coverage, as part of our efforts, adjusted for the carpet change’s effect on acoustics and potential feedback challenges in the Athan Room and Mihrab, with measures to prevent blown speakers through secure DSP settings and lockouts. The audit recommends measuring baseline RT60 (estimated 3.8–5.2 s, potentially up to 6–7 s) and STI (0.3–0.4 currently) to quantify the problem, which we’ll include to address the observed distortion and feedback.
+	•	We will document the existing “A” and “B” speaker placements and system configuration for baseline comparison across acoustic zones, mapping architectural features obtained from the mosque staff and verified by us, cross-referencing with the images and list of installed equipment (see Section 3 Floor Plan Analysis & Current Speaker Placement) to validate our findings, ensuring consistent coverage is documented and achievable, with comprehensive documentation practices to address the lack of documentation we observed, including organizing and cleaning the equipment rack, addressing the dirty floor and messy cables, accounting for missing equipment due to theft, and implementing password protection and physical lockouts to prevent tampering and blown speakers, adjusted for the carpet change’s acoustic implications and feedback needs for the Athan Room and Mihrab. The audit suggests noting equipment age and condition (e.g., amplifiers showing distortion after 15 years), which we’ll assess post-Ramadan. We’ll also check if the current system can be tuned to mitigate distortion and feedback, documenting that even after tuning, deficiencies persist if applicable, and establish a chain of accountability to address the lack of leadership.
+	•	Phase 2: Design & Procurement 
+	•	We will finalize the speaker distribution layout, incorporating virtual simulation results (e.g., EASE, ODEON, CATT-Acoustic) and on-site acoustic data from our analysis, selecting from distributed, line array, or column array systems with beam-steering technology for each zone (mihrab, central dome, main prayer hall, side aisles, archways, courtyard, minarets, Athan Room) to ensure consistent, reliable coverage, with DSP, Dante networking, zone-specific processing (see Section 4.1 Control Room Devices (Mixer and Amplifiers), including anti-feedback and anti-tampering measures), and control room specifications, as designed by us, using the AutoCAD file for precise dimensions and scaling, adjusted for the carpet change and feedback requirements for the Athan Room and Mihrab, with password-protected settings and lockouts to prevent blown speakers. The audit recommends coverage mapping to identify dead zones, which we’ll include in the simulation, ensuring 8–12 column speakers cover the prayer hall adequately. We will also consider the external recommendation (see Section 4.7 Evaluation of External Equipment Recommendation) for TOA TU-660M, JBL AH7115, and other components, adjusting as needed for compatibility and equipment selection, accounting for the carpet’s acoustic impact, anti-feedback needs to address observed issues, and prevention of blown speakers through secure settings.
+	•	We will source equipment from trusted vendors (e.g., local distributors in Syria or international suppliers like Bose, JBL, Renkus-Heinz, Nexo, QSC, Biamp, BSS, Yamaha, Shure, Audinate, dbx, Sennheiser, AKG, Middle Atlantic, Crown, TOA, Electro-Voice), based on our recommendations, ensuring a unified system to replace the diverse, vendor-diverse setup (e.g., Dynacord, Inter-M, TOA, PROEL, Turbosound, UNI-PEX, PASO), including new exterior speakers for the courtyard and upgraded minaret speakers to maintain consistent coverage, with anti-feedback solutions and secure lockouts for the Athan Room and Mihrab, adjusted for the carpet change’s requirements and prevention of blown speakers through password protection. We’ll include headroom for future expansion (e.g., extra input channels, unused amp channels) and implement measures to secure equipment against theft.
+	•	Phase 3: Installation & Testing 
+	•	We will install new control room devices (mixer and amplifiers, see Section 4.1 Control Room Devices (Mixer and Amplifiers)) and speakers (see Section 4.2 Speakers), including column arrays on Corinthian columns, directional ceiling speakers, line arrays, delayed speakers, and column speakers for minarets, amplifiers, DSP processors (QSC Q-SYS, Biamp TesiraFORTE, BSS Soundweb London BLU-100) with beam-steering and zone-specific compressors/limiters/feedback suppressors, multiple wireless (Shure ULX-D, Sennheiser XSW 1-835) and wired mics (Shure MX418, AKG C414 XLII, Shure SM58), Dante-enabled equipment (Yamaha MRX7-D, Shure ULX-D, Audinate AVIO), control room monitors (Yamaha HS5), and a professional-grade rack, ensuring proper alignment, zoning, and integration for each acoustic zone to ensure consistent, reliable coverage, as part of our implementation efforts, adjusted for the carpet change’s acoustic impact, incorporating anti-feedback and anti-tampering measures for the Athan Room and Mihrab to address observed feedback, and preventing blown speakers through password protection and physical lockouts.
+	•	We will ensure seamless integration of all components, with particular attention to the Dante audio network (using Ethernet and analog audio cables) for efficient signal routing and minimal latency, testing the system for coverage, delay, intelligibility (using STIPA analyzers), reverberation (using RT60 tools), and latency (using Dante Controller) to verify consistent, reliable audio, making adjustments as needed across the mosque layout and its zones, including testing zone-specific processing, verifying power distribution for the unified system, tuning anti-feedback settings (dbx AFS2, dbx AFS224) for the Athan Room and Mihrab to eliminate observed feedback during adhan and sermons, ensuring proper organization of the rack and cabling, focusing on beam-steering for the central dome and delayed speakers in the courtyard, with password-protected DSP settings and lockouts to prevent blown speakers due to tampering, as developed by us, adjusted for the carpet change’s effect on test results and feedback potential. The audit recommends using a real-time analyzer to EQ the system, rolling off bass below 125 Hz on columns and taming mid-range peaks to avoid exciting the dome and address distortion, ensuring calibrated delay settings to synchronize sound arrivals, and verifying with post-installation STI measurements across listener positions, all of which we’ve incorporated. We will also integrate the equipment we previously purchased—dbx AFS2, Sennheiser XSW 1-835, AKG C414 XLII, dbx 215s, and EBL Rechargeable Batteries and Charger—into the system, securing them against tampering and theft to maintain consistent coverage and prevent blown speakers, as these items remain available for future use following the resistance we faced from the mosque staff during our visit. Testing will align with Section 1.2, including weather condition tests for the Athan.
+	•	Phase 4: Training & Handover 
+	•	We will train mosque staff on operating and maintaining the new system, including use of the Athan Room setup, DSP/Dante configurations, beam-steering technology, zone-specific processing (compressors, limiters, feedback suppressors, including anti-feedback and anti-tampering measures for the Athan Room and Mihrab), multiple wireless/wired mics, control room operations, and intelligibility optimization tools for each acoustic zone to ensure consistent, reliable coverage, based on our expertise. This training will address the lack of training we observed, ensuring staff are equipped with the knowledge and skills to manage the unified system effectively, verify power distribution, maintain accountability to replace the absent leadership, calibrate anti-feedback settings to eliminate observed feedback, and prevent blown speakers through password protection and lockouts, adjusted for the carpet change’s impact on system performance. The audit recommends detailed documentation and training on microphone usage (e.g., proper placement, battery management for wireless mics), which we’ll include to address current mishandling.
+	•	We will provide detailed documentation and a maintenance schedule, as prepared by us, to establish clear accountability and operational standards, rectifying the absence of documentation and leadership we encountered, ensuring proper use and organization of the mixer, rack, and cabling, with precise layouts informed by the AutoCAD file, adjusted for the carpet change’s impact, and implementing security measures to prevent equipment theft, which we observed daily during our visit.
+
+5.2. Site Preparation 
+Link to 5.2. Site Preparation To facilitate a smooth installation and long-term maintenance of the sound system, we propose the following site preparation steps, addressing the current disorganized conditions and ensuring consistent, reliable audio coverage across all zones, adjusted for the carpet change’s impact and the need to prevent theft and blown speakers:
+	•	Cleanup and Organization: Clean the floor, organize cables with management solutions (e.g., Velcro ties, cable trays), and tidy the equipment rack to eliminate the messy conditions observed, ensuring a safe and efficient workspace, with secure storage to deter theft.
+	•	Infrastructure Assessment: Evaluate existing power distribution and cabling infrastructure, installing backup power (e.g., UPS) and weatherproof conduits for exterior zones (courtyard, minarets) to support the new system, adjusted for the carpet change’s acoustic implications.
+	•	Security Measures: Install locks on the equipment rack and control room, implement inventory tracking, and assign a designated, trained individual to oversee the system, addressing the theft and lack of accountability we observed, with password protection and physical lockouts to prevent tampering and blown speakers.
+	•	Acoustic Adjustments: Assess areas for potential acoustic panel or diffuser placement (where historically permissible), considering the carpet change’s effect, to prepare for reduced reverberation, with final decisions made post-simulation using the AutoCAD file.
+
+6. Conclusion & Next Steps 
+Link to 6. Conclusion & Next Steps The assessment of the Umayyad Mosque’s sound system reveals significant challenges, including a fragmented and inconsistent speaker setup, inadequate coverage, excessive reverberation, delay mismatches, and operational issues such as distortion, feedback, lack of staff training, no accountable leadership, and frequent equipment theft. Our basic acoustic analysis, conducted with limited on-site observations and virtual simulation, will be revised due to the recent carpet change and planned speaker upgrades, requiring comprehensive measurements for final validation. The proposed redesign, incorporating modern equipment, directional speakers, DSP with beam-steering and feedback suppression, and a structured implementation plan, aims to ensure clear, consistent audio coverage across all zones for lectures, khutbas, prayers, Inshad, and Athan.
+
+Recommendations
+	•	Technical Upgrades: Implement the proposed speaker and control room configurations (Sections 4.1 and 4.2), and integrate anti-feedback measures to address observed issues, with secure settings to prevent blown speakers.
+	•	Training & Accountability: Conduct thorough staff training on microphone use and system operation, and appoint a knowledgeable individual to oversee the system, addressing the current lack of training and leadership.
+	•	Security & Documentation: Establish inventory tracking and secure storage to prevent theft, which we observed daily, and provide comprehensive documentation to ensure accountability and maintenance, rectifying the current absence of records.
+	•	Next Actions: Obtain the AutoCAD file, perform detailed acoustic modeling and on-site testing (as outlined in Section 4.4), and proceed with the phased implementation plan (Section 5.1), adjusting for the carpet change’s impact and feedback challenges.
+
+With these steps, the project can deliver an audio experience befitting the Umayyad Mosque’s significance, overcoming the identified deficiencies and ensuring long-term reliability.
